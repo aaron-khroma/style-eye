@@ -1,34 +1,42 @@
 {
-    "name": "cyberpunk-2077-rebuild",
-    "displayName": "Cyberpunk 2077 rebuild",
-    "description": "Cyberpunk 2077 Theme extension",
-    "version": "0.0.7",
+    "name": "style-eye-theme",
+    "displayName": "Style Eye",
+    "description": "Style Eyes Creative brand palette on top of the Cyberpunk 2077 rebuild theme",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.0.0"
     },
     "repository": {
-        "name":"https://github.com/carlos18mz/Cyberpunk-2077-rebuild"
+        "type": "git",
+        "url": "https://github.com/aaron-khroma/style-eye.git"
     },
-    "publisher": "carlos18mz",
+    "publisher": "style-eyes-creative",
     "author": {
-        "name":"carlos18mz"
+        "name": "Style Eyes Creative"
     },
     "license": "MIT",
-    "homepage": "",
     "keywords": [
-        "vs code cyberpunk 2077 theme"
+        "style eye",
+        "style eyes creative",
+        "dark theme"
     ],
-    "icon":"icon.jpg",
     "categories": [
         "Themes"
     ],
+    "scripts": {
+        "build": "node scripts/build.mjs",
+        "package": "npm run build && mkdir -p dist && vsce package --skip-license --out dist/",
+        "vsix:install": "npm run package && node scripts/install.mjs"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "4.0.0"
+    },
     "contributes": {
-
         "themes": [
             {
-                "label": "Cyberpunk 2077 rebuild",
+                "label": "Style Eye",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Cyberpunk 2077 rebuild-color-theme.json"
+                "path": "./themes/theme.json"
             }
         ]
     }

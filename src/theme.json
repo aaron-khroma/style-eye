@@ -1,0 +1,1166 @@
+{
+	"name": "Style Eye",
+	"type": "dark",
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "neutral-100",
+				"background": "neutral-900"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "sapphire-700"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "neutral-100"
+			}
+		},
+		{
+			"name": "Colors",
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "neutral-50"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "ruby-500"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "amethyst-500"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "aquamarine-400"
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "ruby-500"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "aquamarine-400"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "sapphire-300"
+			}
+		},
+		{
+			"name": "Other Variable, String Link",
+			"scope": [
+				"support.other.variable",
+				"string.other.link"
+			],
+			"settings": {
+				"foreground": "emerald-200"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "peridot-200"
+			}
+		},
+		{
+			"name": "Keyword, Unit",
+			"scope": [
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "ruby-500"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "aquamarine-300"
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": [
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.orther.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
+			],
+			"settings": {
+				"foreground": "emerald-200"
+			}
+		},
+		{
+			"name": "Entity Types",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "emerald-200"
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "aquamarine-200"
+			}
+		},
+		{
+			"name": "Sub-methods",
+			"scope": [
+				"entity.name.module.js",
+				"variable.import.parameter.js",
+				"variable.other.class.js"
+			],
+			"settings": {
+				"foreground": "ruby-500"
+			}
+		},
+		{
+			"name": "Language methods",
+			"scope": [
+				"variable.language"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "ruby-500"
+			}
+		},
+		{
+			"name": "entity.name.method.js",
+			"scope": [
+				"entity.name.method.js"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "sapphire-500"
+			}
+		},
+		{
+			"name": "meta.method.js",
+			"scope": [
+				"meta.class-method.js entity.name.function.js",
+				"variable.function.constructor"
+			],
+			"settings": {
+				"foreground": "sapphire-500"
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "amethyst-500"
+			}
+		},
+		{
+			"name": "HTML Attributes",
+			"scope": [
+				"text.html.basic entity.other.attribute-name.html",
+				"text.html.basic entity.other.attribute-name"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "emerald-200"
+			}
+		},
+		{
+			"name": "CSS Classes",
+			"scope": [
+				"entity.other.attribute-name.class"
+			],
+			"settings": {
+				"foreground": "emerald-200"
+			}
+		},
+		{
+			"name": "CSS ID's",
+			"scope": [
+				"source.sass keyword.control"
+			],
+			"settings": {
+				"foreground": "sapphire-400"
+			}
+		},
+		{
+			"name": "Inserted",
+			"scope": [
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "peridot-200"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": [
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "ruby-500"
+			}
+		},
+		{
+			"name": "Changed",
+			"scope": [
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "amethyst-400"
+			}
+		},
+		{
+			"name": "Regular Expressions",
+			"scope": [
+				"string.regexp"
+			],
+			"settings": {
+				"foreground": "aquamarine-200"
+			}
+		},
+		{
+			"name": "Escape Characters",
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "aquamarine-200"
+			}
+		},
+		{
+			"name": "URL",
+			"scope": [
+				"*url*",
+				"*link*",
+				"*uri*"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": [
+				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "sapphire-400"
+			}
+		},
+		{
+			"name": "ES7 Bind Operator",
+			"scope": [
+				"source.js constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "ruby-500"
+			}
+		},
+		{
+			"name": "JSON Key - Level 0",
+			"scope": [
+				"source.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "amethyst-400"
+			}
+		},
+		{
+			"name": "JSON Key - Level 1",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "amber-200"
+			}
+		},
+		{
+			"name": "JSON Key - Level 2",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "ruby-400"
+			}
+		},
+		{
+			"name": "JSON Key - Level 3",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "ruby-500"
+			}
+		},
+		{
+			"name": "JSON Key - Level 4",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "ruby-500"
+			}
+		},
+		{
+			"name": "JSON Key - Level 5",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "sapphire-400"
+			}
+		},
+		{
+			"name": "JSON Key - Level 6",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "ruby-400"
+			}
+		},
+		{
+			"name": "JSON Key - Level 7",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "amethyst-400"
+			}
+		},
+		{
+			"name": "JSON Key - Level 8",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "peridot-200"
+			}
+		},
+		{
+			"name": "Markdown - Plain",
+			"scope": [
+				"text.html.markdown",
+				"punctuation.definition.list_item.markdown"
+			],
+			"settings": {
+				"foreground": "neutral-100"
+			}
+		},
+		{
+			"name": "Markdown - Markup Raw Inline",
+			"scope": [
+				"text.html.markdown markup.inline.raw.markdown"
+			],
+			"settings": {
+				"foreground": "amethyst-400"
+			}
+		},
+		{
+			"name": "Markdown - Markup Raw Inline Punctuation",
+			"scope": [
+				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
+			],
+			"settings": {
+				"foreground": "neutral-700"
+			}
+		},
+		{
+			"name": "Markdown - Line Break",
+			"scope": [
+				"text.html.markdown meta.dummy.line-break"
+			],
+			"settings": {
+				"foreground": "sapphire-700"
+			}
+		},
+		{
+			"name": "Markdown - Heading",
+			"scope": [
+				"markdown.heading",
+				"markup.heading | markup.heading entity.name",
+				"markup.heading.markdown punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "peridot-200"
+			}
+		},
+		{
+			"name": "Markup - Italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "ruby-400"
+			}
+		},
+		{
+			"name": "Markup - Bold",
+			"scope": [
+				"markup.bold",
+				"markup.bold string"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "ruby-400"
+			}
+		},
+		{
+			"name": "Markup - Bold-Italic",
+			"scope": [
+				"markup.bold markup.italic",
+				"markup.italic markup.bold",
+				"markup.quote markup.bold",
+				"markup.bold markup.italic string",
+				"markup.italic markup.bold string",
+				"markup.quote markup.bold string"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "ruby-400"
+			}
+		},
+		{
+			"name": "Markup - Underline",
+			"scope": [
+				"markup.underline"
+			],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "ruby-400"
+			}
+		},
+		{
+			"name": "Markup - Strike",
+			"scope": [
+				"markup.strike"
+			],
+			"settings": {
+				"fontStyle": "strike",
+				"foreground": "sapphire-700"
+			}
+		},
+		{
+			"name": "Markdown - Blockquote",
+			"scope": [
+				"markup.quote punctuation.definition.blockquote.markdown"
+			],
+			"settings": {
+				"background": "neutral-700",
+				"foreground": "neutral-700"
+			}
+		},
+		{
+			"name": "Markup - Quote",
+			"scope": [
+				"markup.quote"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "neutral-700"
+			}
+		},
+		{
+			"name": "Markdown - Link",
+			"scope": [
+				"string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "sapphire-400"
+			}
+		},
+		{
+			"name": "Markdown - Link Description",
+			"scope": [
+				"string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "amethyst-400"
+			}
+		},
+		{
+			"name": "Markdown - Link Anchor",
+			"scope": [
+				"constant.other.reference.link.markdown"
+			],
+			"settings": {
+				"foreground": "amber-200"
+			}
+		},
+		{
+			"name": "Markup - Raw Block",
+			"scope": [
+				"markup.raw.block"
+			],
+			"settings": {
+				"foreground": "amethyst-400"
+			}
+		},
+		{
+			"name": "Markdown - Raw Block Fenced",
+			"scope": [
+				"markup.raw.block.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "neutral-950/31"
+			}
+		},
+		{
+			"name": "Markdown - Fenced Bode Block",
+			"scope": [
+				"punctuation.definition.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "neutral-950/31"
+			}
+		},
+		{
+			"name": "Markdown - Fenced Bode Block Variable",
+			"scope": [
+				"markup.raw.block.fenced.markdown",
+				"variable.language.fenced.markdown",
+				"punctuation.section.class.end"
+			],
+			"settings": {
+				"foreground": "neutral-100"
+			}
+		},
+		{
+			"name": "Markdown - Fenced Language",
+			"scope": [
+				"variable.language.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "neutral-700"
+			}
+		},
+		{
+			"name": "Markdown - Separator",
+			"scope": [
+				"meta.separator"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"background": "neutral-950/31",
+				"foreground": "neutral-700"
+			}
+		},
+		{
+			"name": "Markup - Table",
+			"scope": [
+				"markup.table"
+			],
+			"settings": {
+				"foreground": "neutral-100"
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "sapphire-500"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "amber-500"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "ruby-600"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "amethyst-600"
+			}
+		}
+	],
+	"colors": {
+		"activityBar.background": "neutral-950",
+		"foreground": "emerald-300",
+		"widget.shadow": "emerald-500",
+		"selection.background": "emerald-800",
+		"descriptionForeground": "aquamarine-400",
+		"errorForeground": "ruby-600",
+		"icon.foreground": "emerald-500/74",
+		"window.activeBorder": "aquamarine-400",
+		"window.inactiveBorder": "aquamarine-400",
+		"textBlockQuote.background": "emerald-500/74",
+		"textBlockQuote.border": "aquamarine-400",
+		"textLink.foreground": "aquamarine-600",
+		"textLink.activeForeground": "aquamarine-400",
+		"textPreformat.foreground": "aquamarine-400",
+		"textSeparator.foreground": "aquamarine-400",
+		"textCodeBlock.background": "neutral-950",
+		"button.background": "emerald-500",
+		"button.foreground": "emerald-900",
+		"button.hoverBackground": "emerald-300",
+		"button.secondaryForeground": "emerald-100",
+		"button.secondaryBackground": "emerald-800",
+		"button.secondaryHoverBackground": "emerald-700",
+		"checkbox.background": "emerald-900",
+		"checkbox.foreground": "emerald-500",
+		"checkbox.border": "emerald-500",
+		"dropdown.background": "neutral-950/79",
+		"dropdown.listBackground": "neutral-950/79",
+		"dropdown.border": "emerald-500",
+		"dropdown.foreground": "emerald-500",
+		"input.background": "emerald-900",
+		"input.border": "aquamarine-500",
+		"input.foreground": "aquamarine-500",
+		"input.placeholderForeground": "aquamarine-600",
+		"inputOption.activeBackground": "neutral-950/73",
+		"inputOption.activeBorder": "emerald-500",
+		"inputOption.activeForeground": "emerald-500",
+		"inputValidation.errorBackground": "emerald-900",
+		"inputValidation.errorForeground": "emerald-500",
+		"inputValidation.errorBorder": "emerald-500",
+		"inputValidation.infoBackground": "emerald-900",
+		"inputValidation.infoForeground": "emerald-500",
+		"inputValidation.infoBorder": "emerald-300",
+		"inputValidation.warningBackground": "emerald-900",
+		"inputValidation.warningForeground": "emerald-500",
+		"inputValidation.warningBorder": "emerald-500",
+		"scrollbar.shadow": "aquamarine-500",
+		"scrollbarSlider.activeBackground": "emerald-500/39",
+		"scrollbarSlider.background": "emerald-500/49",
+		"scrollbarSlider.hoverBackground": "emerald-500/58",
+		"badge.foreground": "neutral-950",
+		"badge.background": "emerald-500",
+		"progressBar.background": "aquamarine-400",
+		"list.activeSelectionBackground": "emerald-800",
+		"list.activeSelectionForeground": "emerald-300",
+		"list.dropBackground": "emerald-800",
+		"list.focusBackground": "emerald-800",
+		"list.focusForeground": "emerald-300",
+		"list.highlightForeground": "emerald-500",
+		"list.hoverBackground": "emerald-800/42",
+		"list.hoverForeground": "emerald-300",
+		"list.inactiveSelectionBackground": "emerald-900/42",
+		"list.inactiveSelectionForeground": "emerald-300",
+		"list.inactiveFocusBackground": "neutral-950",
+		"list.invalidItemForeground": "emerald-700",
+		"list.errorForeground": "ruby-700",
+		"list.warningForeground": "peridot-200",
+		"listFilterWidget.background": "emerald-900",
+		"listFilterWidget.outline": "emerald-800",
+		"listFilterWidget.noMatchesOutline": "emerald-900",
+		"list.filterMatchBackground": "emerald-800",
+		"list.filterMatchBorder": "emerald-700",
+		"tree.indentGuidesStroke": "emerald-700",
+		"list.deemphasizedForeground": "emerald-900",
+		"activityBar.dropBorder": "aquamarine-700/63",
+		"activityBar.foreground": "emerald-300",
+		"activityBar.inactiveForeground": "emerald-300",
+		"activityBar.border": "emerald-700",
+		"activityBarBadge.background": "emerald-300",
+		"activityBarBadge.foreground": "emerald-900",
+		"activityBar.activeBorder": "emerald-300",
+		"activityBar.activeBackground": "emerald-800/47",
+		"activityBar.activeFocusBorder": "emerald-800/47",
+		"sideBar.background": "neutral-950",
+		"sideBar.foreground": "emerald-300",
+		"sideBar.border": "neutral-950",
+		"sideBar.dropBackground": "emerald-800/47",
+		"sideBarTitle.foreground": "emerald-300",
+		"sideBarSectionHeader.background": "emerald-900",
+		"sideBarSectionHeader.border": "emerald-700",
+		"sideBarSectionHeader.foreground": "emerald-300",
+		"minimap.findMatchHighlight": "aquamarine-200",
+		"minimap.selectionHighlight": "emerald-300",
+		"minimap.errorHighlight": "ruby-600",
+		"minimap.warningHighlight": "peridot-100/60",
+		"minimap.background": "neutral-950",
+		"minimapSlider.background": "emerald-500/53",
+		"minimapSlider.hoverBackground": "emerald-500/53",
+		"minimapSlider.activeBackground": "emerald-500",
+		"minimapGutter.addedBackground": "aquamarine-200",
+		"minimapGutter.modifiedBackground": "aquamarine-200",
+		"minimapGutter.deletedBackground": "aquamarine-200",
+		"editorGroup.border": "emerald-700",
+		"editorGroup.dropBackground": "emerald-800/74",
+		"editorGroupHeader.noTabsBackground": "neutral-950",
+		"editorGroupHeader.tabsBackground": "neutral-950",
+		"editorGroupHeader.border": "emerald-700",
+		"editorGroupHeader.tabsBorder": "emerald-700",
+		"editorGroup.emptyBackground": "neutral-950",
+		"editorGroup.focusedEmptyBorder": "emerald-300",
+		"tab.activeBackground": "neutral-950",
+		"tab.border": "neutral-950",
+		"tab.activeForeground": "emerald-300",
+		"tab.activeBorder": "emerald-300",
+		"tab.unfocusedActiveBorder": "emerald-800",
+		"tab.activeBorderTop": "emerald-300",
+		"tab.unfocusedActiveBorderTop": "neutral-950",
+		"tab.unfocusedActiveBackground": "neutral-950",
+		"tab.lastPinnedBorder": "emerald-700",
+		"tab.inactiveBackground": "neutral-950",
+		"tab.unfocusedInactiveBackground": "neutral-950",
+		"tab.inactiveForeground": "emerald-700",
+		"tab.unfocusedActiveForeground": "emerald-300",
+		"tab.unfocusedInactiveForeground": "emerald-300",
+		"tab.hoverBackground": "emerald-700/49",
+		"tab.unfocusedHoverBackground": "emerald-700/49",
+		"tab.hoverForeground": "emerald-300",
+		"tab.unfocusedHoverForeground": "emerald-300",
+		"tab.hoverBorder": "emerald-300",
+		"tab.unfocusedHoverBorder": "emerald-300",
+		"tab.activeModifiedBorder": "emerald-300",
+		"tab.inactiveModifiedBorder": "emerald-700",
+		"tab.unfocusedActiveModifiedBorder": "emerald-700",
+		"tab.unfocusedInactiveModifiedBorder": "emerald-300",
+		"editorPane.background": "neutral-950",
+		"editor.background": "neutral-950",
+		"editor.foreground": "emerald-300",
+		"editorLineNumber.foreground": "peridot-500",
+		"editorLineNumber.activeForeground": "peridot-300",
+		"editorLink.activeForeground": "neutral-950",
+		"editorCursor.background": "neutral-950",
+		"editorCursor.foreground": "emerald-300",
+		"editor.selectionBackground": "sapphire-900/63",
+		"editor.selectionForeground": "emerald-300",
+		"editor.inactiveSelectionBackground": "sapphire-900/63",
+		"editor.selectionHighlightBackground": "sapphire-900/63",
+		"editor.selectionHighlightBorder": "sapphire-800",
+		"editor.wordHighlightBackground": "sapphire-800/30",
+		"editor.wordHighlightBorder": "sapphire-800",
+		"editor.wordHighlightStrongBackground": "sapphire-800/30",
+		"editor.wordHighlightStrongBorder": "sapphire-800",
+		"editor.findMatchBackground": "sapphire-900/73",
+		"editor.findMatchHighlightBackground": "sapphire-800/30",
+		"editor.findRangeHighlightBackground": "sapphire-800/30",
+		"editor.findMatchBorder": "emerald-700",
+		"editor.findMatchHighlightBorder": "emerald-700",
+		"editor.findRangeHighlightBorder": "emerald-700",
+		"editor.focusedStackFrameHighlightBackground": "sapphire-800/30",
+		"editor.hoverHighlightBackground": "sapphire-800/30",
+		"editor.lineHighlightBackground": "sapphire-800/30",
+		"editor.symbolHighlightBorder": "emerald-700",
+		"searchEditor.findMatchBackground": "emerald-700/49",
+		"searchEditor.findMatchBorder": "emerald-700",
+		"searchEditor.textInputBorder": "emerald-700",
+		"editor.lineHighlightBorder": "sapphire-900/39",
+		"editor.rangeHighlightBackground": "sapphire-800/24",
+		"editor.rangeHighlightBorder": "emerald-700",
+		"editor.symbolHighlightBackground": "sapphire-800/24",
+		"editorWhitespace.foreground": "emerald-300",
+		"editorIndentGuide.background": "sapphire-800/45",
+		"editorIndentGuide.activeBackground": "emerald-300",
+		"editorRuler.foreground": "sapphire-800/24",
+		"editor.onTypeRenameBackground": "sapphire-800/24",
+		"editorCodeLens.foreground": "emerald-300",
+		"editorLightBulb.foreground": "emerald-300",
+		"editorLightBulbAutoFix.foreground": "emerald-300",
+		"editorBracketMatch.background": "sapphire-800/24",
+		"editorBracketMatch.border": "emerald-700/51",
+		"editor.foldBackground": "neutral-950",
+		"editorOverviewRuler.background": "neutral-950",
+		"editorOverviewRuler.border": "emerald-700",
+		"editorOverviewRuler.findMatchForeground": "emerald-300",
+		"editorOverviewRuler.rangeHighlightForeground": "emerald-300",
+		"editorOverviewRuler.selectionHighlightForeground": "emerald-300",
+		"editorOverviewRuler.wordHighlightForeground": "sapphire-800",
+		"editorOverviewRuler.wordHighlightStrongForeground": "sapphire-800",
+		"editorOverviewRuler.modifiedForeground": "sapphire-800",
+		"editorOverviewRuler.addedForeground": "emerald-300",
+		"editorOverviewRuler.deletedForeground": "sapphire-800",
+		"editorOverviewRuler.errorForeground": "ruby-600",
+		"editorOverviewRuler.warningForeground": "peridot-100/69",
+		"editorOverviewRuler.infoForeground": "emerald-500",
+		"editorOverviewRuler.bracketMatchForeground": "ruby-600",
+		"editorError.foreground": "ruby-600/71",
+		"editorError.border": "ruby-600",
+		"editorWarning.foreground": "peridot-100/69",
+		"editorWarning.border": "peridot-400/69",
+		"editorInfo.foreground": "emerald-300",
+		"editorInfo.border": "emerald-500",
+		"editorHint.border": "neutral-950",
+		"editorHint.foreground": "amethyst-600",
+		"problemsErrorIcon.foreground": "ruby-600",
+		"problemsWarningIcon.foreground": "peridot-300",
+		"problemsInfoIcon.foreground": "emerald-300",
+		"editorUnnecessaryCode.border": "sapphire-800",
+		"editorUnnecessaryCode.opacity": "emerald-300",
+		"editorGutter.background": "neutral-950/91",
+		"editorGutter.modifiedBackground": "peridot-100",
+		"editorGutter.addedBackground": "peridot-100",
+		"editorGutter.deletedBackground": "sapphire-800/69",
+		"editorGutter.commentRangeForeground": "spinel-600",
+		"editorGutter.foldingControlForeground": "ruby-600",
+		"diffEditor.border": "emerald-700",
+		"diffEditor.diagonalFill": "sapphire-800/24",
+		"diffEditor.insertedTextBackground": "sapphire-800/24",
+		"diffEditor.insertedTextBorder": "emerald-700",
+		"diffEditor.removedTextBackground": "sapphire-800/24",
+		"diffEditor.removedTextBorder": "emerald-700",
+		"editorWidget.foreground": "emerald-300",
+		"editorWidget.background": "neutral-950/91",
+		"editorWidget.border": "emerald-700",
+		"editorWidget.resizeBorder": "emerald-700",
+		"editorSuggestWidget.border": "aquamarine-500",
+		"editorSuggestWidget.background": "emerald-900",
+		"editorSuggestWidget.foreground": "aquamarine-500/85",
+		"editorSuggestWidget.highlightForeground": "aquamarine-300",
+		"editorSuggestWidget.selectedBackground": "emerald-800/58",
+		"editorHoverWidget.foreground": "aquamarine-500",
+		"editorHoverWidget.background": "emerald-900",
+		"editorHoverWidget.border": "aquamarine-500",
+		"editorHoverWidget.statusBarBackground": "aquamarine-800/41",
+		"debugExceptionWidget.background": "peridot-300",
+		"debugExceptionWidget.border": "amber-300",
+		"editorMarkerNavigation.background": "emerald-900",
+		"editorMarkerNavigationError.background": "aquamarine-500",
+		"editorMarkerNavigationWarning.background": "emerald-900",
+		"editorMarkerNavigationInfo.background": "aquamarine-500/58",
+		"peekView.border": "emerald-500",
+		"peekViewEditor.background": "emerald-900",
+		"peekViewEditorGutter.background": "emerald-900",
+		"peekViewEditor.matchHighlightBackground": "sapphire-900/63",
+		"peekViewEditor.matchHighlightBorder": "emerald-500",
+		"peekViewResult.background": "emerald-900",
+		"peekViewResult.fileForeground": "neutral-950",
+		"peekViewResult.lineForeground": "emerald-500",
+		"peekViewResult.matchHighlightBackground": "sapphire-900/63",
+		"peekViewResult.selectionBackground": "emerald-800",
+		"peekViewResult.selectionForeground": "emerald-500",
+		"peekViewTitle.background": "emerald-900",
+		"peekViewTitleDescription.foreground": "emerald-500",
+		"peekViewTitleLabel.foreground": "emerald-500",
+		"merge.currentHeaderBackground": "emerald-800/26",
+		"merge.currentContentBackground": "emerald-900/49",
+		"merge.incomingHeaderBackground": "sapphire-900/63",
+		"merge.incomingContentBackground": "neutral-950/63",
+		"merge.border": "emerald-700",
+		"merge.commonHeaderBackground": "emerald-300",
+		"merge.commonContentBackground": "emerald-700/49",
+		"editorOverviewRuler.currentContentForeground": "emerald-500/74",
+		"editorOverviewRuler.incomingContentForeground": "emerald-500",
+		"editorOverviewRuler.commonContentForeground": "emerald-300",
+		"panel.background": "neutral-950",
+		"panel.border": "emerald-500",
+		"panel.dropBorder": "emerald-500",
+		"panelTitle.activeBorder": "emerald-500",
+		"panelTitle.activeForeground": "emerald-500",
+		"panelTitle.inactiveForeground": "emerald-500/45",
+		"panelInput.border": "emerald-500",
+		"panelSection.border": "emerald-500",
+		"panelSection.dropBackground": "neutral-950",
+		"panelSectionHeader.background": "neutral-950",
+		"panelSectionHeader.foreground": "emerald-500",
+		"panelSectionHeader.border": "sapphire-800",
+		"imagePreview.border": "emerald-500",
+		"statusBar.background": "neutral-950",
+		"statusBar.foreground": "emerald-500",
+		"statusBar.border": "emerald-500",
+		"statusBar.debuggingBackground": "neutral-950",
+		"statusBar.debuggingForeground": "emerald-500",
+		"statusBar.debuggingBorder": "emerald-500",
+		"statusBar.noFolderBackground": "neutral-950",
+		"statusBar.noFolderForeground": "emerald-500",
+		"statusBar.noFolderBorder": "emerald-500",
+		"statusBarItem.activeBackground": "emerald-800",
+		"statusBarItem.hoverBackground": "emerald-800",
+		"statusBarItem.prominentForeground": "emerald-500",
+		"statusBarItem.prominentBackground": "emerald-800",
+		"statusBarItem.prominentHoverBackground": "emerald-800",
+		"statusBarItem.remoteBackground": "emerald-800",
+		"statusBarItem.remoteForeground": "emerald-500",
+		"titleBar.activeForeground": "emerald-500",
+		"titleBar.activeBackground": "neutral-950",
+		"titleBar.inactiveBackground": "neutral-950",
+		"titleBar.inactiveForeground": "emerald-500",
+		"titleBar.border": "neutral-950",
+		"menubar.selectionForeground": "emerald-500",
+		"menubar.selectionBackground": "emerald-800",
+		"menubar.selectionBorder": "neutral-950/0",
+		"menu.foreground": "emerald-500",
+		"menu.background": "neutral-950/83",
+		"menu.selectionForeground": "emerald-500",
+		"menu.selectionBackground": "emerald-800",
+		"menu.selectionBorder": "emerald-500",
+		"menu.separatorBackground": "emerald-900",
+		"menu.border": "emerald-500",
+		"notificationCenter.border": "emerald-300",
+		"notificationCenterHeader.foreground": "emerald-300",
+		"notificationCenterHeader.background": "neutral-950",
+		"notificationToast.border": "emerald-300",
+		"notifications.foreground": "emerald-300",
+		"notifications.background": "neutral-950",
+		"notifications.border": "emerald-300",
+		"notificationLink.foreground": "emerald-300",
+		"notificationsErrorIcon.foreground": "ruby-600",
+		"notificationsWarningIcon.foreground": "peridot-300",
+		"notificationsInfoIcon.foreground": "emerald-300",
+		"extensionButton.prominentForeground": "emerald-900",
+		"extensionButton.prominentBackground": "emerald-500",
+		"extensionButton.prominentHoverBackground": "emerald-300",
+		"extensionBadge.remoteBackground": "emerald-900",
+		"extensionBadge.remoteForeground": "emerald-500",
+		"pickerGroup.border": "emerald-300",
+		"pickerGroup.foreground": "emerald-300",
+		"quickInput.background": "neutral-950/85",
+		"quickInput.foreground": "emerald-500",
+		"quickInputTitle.background": "neutral-950/85",
+		"terminal.background": "neutral-950",
+		"terminal.border": "emerald-300",
+		"terminal.foreground": "emerald-300",
+		"terminal.ansiBlack": "emerald-300",
+		"terminal.ansiBlue": "sapphire-800",
+		"terminal.ansiBrightBlack": "aquamarine-500",
+		"terminal.ansiBrightBlue": "aquamarine-500",
+		"terminal.ansiBrightCyan": "aquamarine-300",
+		"terminal.ansiBrightGreen": "emerald-300",
+		"terminal.ansiBrightMagenta": "spinel-600",
+		"terminal.ansiBrightRed": "ruby-700",
+		"terminal.ansiBrightWhite": "aquamarine-400",
+		"terminal.ansiBrightYellow": "peridot-200",
+		"terminal.ansiCyan": "aquamarine-600",
+		"terminal.ansiGreen": "sapphire-700",
+		"terminal.ansiMagenta": "spinel-700",
+		"terminal.ansiRed": "ruby-800",
+		"terminal.ansiWhite": "sapphire-900",
+		"terminal.ansiYellow": "neutral-950",
+		"terminal.selectionBackground": "spinel-700",
+		"terminalCursor.background": "emerald-900",
+		"terminalCursor.foreground": "emerald-300",
+		"debugToolBar.background": "emerald-900",
+		"debugToolBar.border": "emerald-300",
+		"editor.stackFrameHighlightBackground": "peridot-100",
+		"debugView.exceptionLabelForeground": "emerald-300",
+		"debugView.exceptionLabelBackground": "emerald-500/74",
+		"debugView.stateLabelBackground": "emerald-500/74",
+		"debugView.stateLabelForeground": "emerald-300",
+		"debugView.valueChangedHighlight": "emerald-300",
+		"debugTokenExpression.name": "emerald-300",
+		"debugTokenExpression.value": "emerald-500/74",
+		"debugTokenExpression.string": "emerald-300",
+		"debugTokenExpression.boolean": "emerald-500/74",
+		"debugTokenExpression.number": "emerald-300",
+		"debugTokenExpression.error": "emerald-500/74",
+		"welcomePage.background": "neutral-950",
+		"welcomePage.buttonBackground": "neutral-950/54",
+		"welcomePage.buttonHoverBackground": "emerald-800/64",
+		"walkThrough.embeddedEditorBackground": "emerald-500",
+		"scm.providerBorder": "emerald-500",
+		"gitDecoration.addedResourceForeground": "emerald-500",
+		"gitDecoration.modifiedResourceForeground": "emerald-500",
+		"gitDecoration.stageModifiedResourceForeground": "sapphire-800",
+		"gitDecoration.deletedResourceForeground": "sapphire-800",
+		"gitDecoration.stageDeletedResourceForeground": "spinel-500",
+		"gitDecoration.untrackedResourceForeground": "sapphire-800",
+		"gitDecoration.ignoredResourceForeground": "aquamarine-400",
+		"gitDecoration.conflictingResourceForeground": "emerald-300",
+		"gitDecoration.submoduleResourceForeground": "ruby-600",
+		"settings.headerForeground": "emerald-300",
+		"settings.modifiedItemIndicator": "emerald-300",
+		"settings.dropdownBackground": "emerald-900",
+		"settings.dropdownForeground": "emerald-500",
+		"settings.dropdownBorder": "emerald-500",
+		"settings.dropdownListBorder": "emerald-500",
+		"settings.checkboxBackground": "emerald-900",
+		"settings.checkboxForeground": "emerald-500",
+		"settings.checkboxBorder": "emerald-500",
+		"settings.textInputBackground": "emerald-900",
+		"settings.textInputBorder": "emerald-500",
+		"settings.textInputForeground": "emerald-500",
+		"settings.numberInputBackground": "emerald-900",
+		"settings.numberInputBorder": "emerald-500",
+		"settings.numberInputForeground": "emerald-500",
+		"settings.focusedRowBackground": "emerald-900/45",
+		"notebook.focusedRowBorder": "peridot-300",
+		"notebook.rowHoverBackground": "neutral-950/25",
+		"breadcrumb.foreground": "emerald-300",
+		"breadcrumb.background": "neutral-950",
+		"breadcrumb.focusForeground": "emerald-300",
+		"breadcrumb.activeSelectionForeground": "emerald-300",
+		"breadcrumbPicker.background": "neutral-950",
+		"editor.snippetTabstopHighlightBackground": "sapphire-800/50",
+		"editor.snippetTabstopHighlightBorder": "sapphire-800/50",
+		"editor.snippetFinalTabstopHighlightBackground": "sapphire-800/50",
+		"editor.snippetFinalTabstopHighlightBorder": "sapphire-800/50",
+		"symbolIcon.arrayForeground": "peridot-100",
+		"symbolIcon.booleanForeground": "peridot-100",
+		"symbolIcon.classForeground": "spinel-500",
+		"symbolIcon.colorForeground": "sapphire-800",
+		"symbolIcon.constantForeground": "sapphire-800",
+		"symbolIcon.constructorForeground": "amethyst-700",
+		"symbolIcon.enumeratorForeground": "aquamarine-100",
+		"symbolIcon.enumeratorMemberForeground": "sapphire-700",
+		"symbolIcon.eventForeground": "sapphire-700",
+		"symbolIcon.fieldForeground": "amethyst-700",
+		"symbolIcon.fileForeground": "amethyst-600",
+		"symbolIcon.folderForeground": "spinel-500",
+		"symbolIcon.functionForeground": "spinel-600",
+		"symbolIcon.interfaceForeground": "ruby-600",
+		"symbolIcon.keyForeground": "emerald-200",
+		"symbolIcon.keywordForeground": "ruby-600",
+		"symbolIcon.methodForeground": "emerald-200",
+		"symbolIcon.moduleForeground": "amber-400",
+		"symbolIcon.namespaceForeground": "peridot-500",
+		"symbolIcon.nullForeground": "emerald-500",
+		"symbolIcon.numberForeground": "emerald-500",
+		"symbolIcon.objectForeground": "emerald-500",
+		"symbolIcon.operatorForeground": "emerald-700",
+		"symbolIcon.packageForeground": "sapphire-800",
+		"symbolIcon.snippetForeground": "sapphire-900",
+		"symbolIcon.propertyForeground": "sapphire-800",
+		"symbolIcon.referenceForeground": "sapphire-900",
+		"symbolIcon.stringForeground": "amethyst-900",
+		"symbolIcon.structForeground": "spinel-800",
+		"symbolIcon.textForeground": "spinel-700",
+		"symbolIcon.typeParameterForeground": "ruby-800",
+		"symbolIcon.unitForeground": "ruby-800",
+		"symbolIcon.variableForeground": "ruby-800",
+		"debugIcon.breakpointCurrentStackframeForeground": "sapphire-800/50",
+		"debugIcon.breakpointDisabledForeground": "emerald-900",
+		"debugIcon.breakpointForeground": "emerald-300",
+		"debugIcon.breakpointStackframeForeground": "sapphire-800/50",
+		"debugIcon.breakpointUnverifiedForeground": "sapphire-800/50",
+		"debugIcon.continueForeground": "emerald-300",
+		"debugIcon.disconnectForeground": "emerald-300",
+		"debugIcon.pauseForeground": "emerald-300",
+		"debugIcon.restartForeground": "emerald-300",
+		"debugIcon.startForeground": "emerald-300",
+		"debugIcon.stepBackForeground": "emerald-700",
+		"debugIcon.stepIntoForeground": "emerald-700",
+		"debugIcon.stepOutForeground": "emerald-700",
+		"debugIcon.stepOverForeground": "emerald-700",
+		"debugIcon.stopForeground": "emerald-300",
+		"debugConsoleInputIcon.foreground": "emerald-300",
+		"debugConsole.infoForeground": "emerald-300",
+		"debugConsole.errorForeground": "emerald-300",
+		"debugConsole.sourceForeground": "emerald-300",
+		"debugConsole.warningForeground": "emerald-300",
+		"notebook.cellBorderColor": "aquamarine-400",
+		"notebook.focusedEditorBorder": "emerald-300",
+		"notebookStatusErrorIcon.foreground": "ruby-600",
+		"notebookStatusSuccessIcon.foreground": "peridot-100",
+		"notebookStatusRunningIcon.foreground": "emerald-300",
+		"notebook.outputContainerBackgroundColor": "neutral-950",
+		"notebook.cellHoverBackground": "sapphire-800/50",
+		"notebook.cellToolbarSeparator": "neutral-950/85",
+		"notebook.focusedCellBackground": "emerald-900",
+		"notebook.focusedCellBorder": "peridot-100",
+		"notebook.cellStatusBarItemHoverBackground": "emerald-900",
+		"notebook.cellInsertionIndicator": "sapphire-800",
+		"notebookScrollbarSlider.background": "emerald-500/49",
+		"notebookScrollbarSlider.hoverBackground": "emerald-500/58",
+		"notebookScrollbarSlider.activeBackground": "emerald-500/58",
+		"notebook.symbolHighlightBackground": "emerald-300",
+		"dart.closingLabels": "sapphire-700/82",
+		"charts.foreground": "neutral-950",
+		"charts.lines": "aquamarine-400",
+		"charts.red": "ruby-600",
+		"charts.blue": "sapphire-800",
+		"charts.yellow": "peridot-100",
+		"charts.orange": "ruby-500",
+		"charts.green": "emerald-500",
+		"charts.purple": "sapphire-900"
+	}
+}

@@ -1,9 +1,7 @@
 # Change Log
 
-All notable changes to the "cyberpunk-2077-rebuild" extension will be documented in this file.
+## 0.1.0
 
-
-# v0.0.6
-    * Added custom colors to notebook interface 
-    * Fixed issues with Section panel 
-
+- Rebuilt the Cyberpunk 2077 rebuild theme (v0.0.7) in the Style Eyes Creative palette.
+- Theme colors are palette tokens in `src/theme.json`, compiled by `npm run build`.
+- `npm run vsix:install` packages and installs the VSIX.
